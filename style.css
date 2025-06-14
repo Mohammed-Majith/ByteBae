@@ -34,3 +34,37 @@ button.btn-outline-light:hover {
   background-color: rgba(0, 255, 255, 0.1);
   border-color: cyan;
 }
+/* ==== FOOTER STYLING ==== */
+
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #111;
+  color: #ddd;
+  border-top: 2px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 -2px 10px rgba(255, 255, 255, 0.02);
+}
+
+footer a {
+  color: #00c3ff;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: #00f7ff;
+  text-decoration: underline;
+  text-shadow: 0 0 5px #00e5ff;
+}
+
+footer em {
+  font-style: italic;
+  color: #8ecae6;
+}
+
+footer strong {
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
